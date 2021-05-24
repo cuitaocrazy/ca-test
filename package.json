@@ -1,0 +1,31 @@
+{
+  "name": "ca-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.6.0",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "jest": "^26.6.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "fabric-ca-client": "^2.2.5",
+    "fabric-network": "^2.2.5"
+  }
+}
